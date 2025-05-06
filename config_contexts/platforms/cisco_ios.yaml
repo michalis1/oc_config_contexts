@@ -1,3 +1,9 @@
+---
+_metadata:
+  name: cisco_ios
+  weight: 1000
+  description: Cisco IOS Command Outputs
+  is_active: true
 command_outputs:
   show_version:
     - version: 17.6.5
