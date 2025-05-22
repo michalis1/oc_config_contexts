@@ -7,7 +7,7 @@ _metadata:
 command_outputs:
   show_version:
     - version: 17.6.8
-      running_image: c1100-universalk9.17.06.05.SPA.bin
+      running_image: c1100-universalk9.17.06.08.SPA.bin
       hardware:
         - C1121-8P
       hostname: CSMS-LAB-R1
