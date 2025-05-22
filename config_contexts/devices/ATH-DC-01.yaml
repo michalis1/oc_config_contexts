@@ -1,0 +1,32 @@
+---
+_metadata:
+  name: CSMS-LAB-R1
+  weight: 1000
+  description: Cisco IOS Command Outputs
+  is_active: true
+command_outputs:
+  show_ip_route_static:
+    - distance: '2'
+      flag: ''
+      metric: '0'
+      network: 172.16.100.0
+      nexthop_if: ''
+      nexthop_ip: 172.20.2.15
+      nexthop_vrf: ''
+      prefix_length: '24'
+      protocol: S
+      type: ''
+      uptime: ''
+      vrf: ''
+    - distance: '1'
+      flag: ''
+      metric: '0'
+      network: 172.16.101.0
+      nexthop_if: ''
+      nexthop_ip: 172.20.2.15
+      nexthop_vrf: ''
+      prefix_length: '24'
+      protocol: S
+      type: ''
+      uptime: ''
+      vrf: ''

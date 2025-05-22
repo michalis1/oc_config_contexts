@@ -1,0 +1,21 @@
+---
+_metadata:
+  name: CSMS-LAB-R1
+  weight: 1000
+  description: Cisco IOS Command Outputs
+  is_active: true
+command_outputs:
+  show_ip_bgp_sum:
+    - address_family: ''
+      bgp_neighbor: 172.28.255.255
+      bgp_version: '4'
+      input_queue: '0'
+      local_as: '65222'
+      messages_received: '46960'
+      messages_sent: '7042'
+      neighbor_as: '12361'
+      output_queue: '0'
+      router_id: 172.23.1.38
+      state_or_prefixes_received: '44607'
+      table_version: '25128202'
+      up_down: 2d05h
