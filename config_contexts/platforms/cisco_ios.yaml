@@ -6,7 +6,7 @@ _metadata:
   is_active: true
 command_outputs:
   show_version:
-    - version: 17.6.5
+    - version: 17.6.8
       running_image: c1100-universalk9.17.06.05.SPA.bin
       hardware:
         - C1121-8P
