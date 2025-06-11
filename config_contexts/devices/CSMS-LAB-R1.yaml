@@ -7,16 +7,16 @@ _metadata:
 command_outputs:
   show_version:
     ap_profiles:
-      - "console_state": "Disabled"
-        "profile_name": "ABC",
-      - "console_state": "Disabled"
-        "profile_name": "ABC",
-      - "console_state": "Disabled"
-        "profile_name": "ABC",
-      - "console_state": "Disabled"
-        "profile_name": "ABC",
-      - "console_state": "Disabled"
-        "profile_name": "ABC",
+      - console_state: "Disabled"
+        profile_name: "ABC",
+      - console_state: "Disabled"
+        profile_name: "ABC",
+      - console_state: "Disabled"
+        profile_name: "ABC",
+      - console_state: "Disabled"
+        profile_name: "ABC",
+      - console_state: "Disabled"
+        profile_name: "ABC",
   show_versions:
     - version: 17.6.9
       running_image: c1100-universalk9.17.06.09.SPA.bin
