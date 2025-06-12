@@ -5,7 +5,7 @@ _metadata:
   description: Cisco IOS Command Outputs
   is_active: true
 command_outputs:
-  show_version:
+  show_versions:
     ap_profiles:
       - console_state: "Disabled"
         profile_name: "ABC"
@@ -17,7 +17,7 @@ command_outputs:
         profile_name: "ABC"
       - console_state: "Disabled"
         profile_name: "ABC"
-  show_versions:
+  show_version:
     - version: 17.6.9
       running_image: c1100-universalk9.17.06.09.SPA.bin
       hardware:
