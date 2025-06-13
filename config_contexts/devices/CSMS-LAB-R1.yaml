@@ -33,7 +33,7 @@ command_outputs:
     software_image: ARMV8EL_LINUX_IOSD-UNIVERSALK9-M
     config_register: "0x2102"
     uptime: 40 weeks, 6 days, 18 hours, 49 minutes
-    uptime_days: "6"
+    uptime_days: 6
     uptime_hours: "18"
     uptime_minutes: "49"
     uptime_weeks: "40"
