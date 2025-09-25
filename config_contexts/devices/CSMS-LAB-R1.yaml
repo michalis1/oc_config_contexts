@@ -18,26 +18,29 @@ command_outputs:
       - console_state: "Disabled"
         profile_name: "ABC"
   show_version:
-    - version: 17.6.19
-      running_image: c1100-universalk9.17.06.09.SPA.bin
-      hardware:
-        - C1121-8P
-      hostname: CSMS-LAB-R1
-      mac_address: []
-      release: fc2
-      reload_reason: Reload Command
-      restarted: 14:44:17 EEST Tue Jul 23 2024
-      rommon: 17.5(1r)
-      serial:
-        - FGL2527LJ3E
-      software_image: ARMV8EL_LINUX_IOSD-UNIVERSALK9-M
-      config_register: "0x2102"
-      uptime: 40 weeks, 6 days, 18 hours, 49 minutes
-      uptime_days: 6
-      uptime_hours: "18"
-      uptime_minutes: "49"
-      uptime_weeks: "40"
-      uptime_years: ""
+  show_version:
+    command:
+      output:
+        version: 17.6.20
+        running_image: c1100-universalk9.17.06.08.SPA.bin
+        hardware:
+          - C1121-8P
+        hostname: CSMS-LAB-R1
+        mac_address: []
+        release: fc2
+        reload_reason: Reload Command
+        restarted: 14:44:17 EEST Tue Jul 23 2024
+        rommon: 17.5(1r)
+        serial:
+          - FGL2527LJ3E
+        software_image: ARMV8EL_LINUX_IOSD-UNIVERSALK9-M
+        config_register: "0x2102"
+        uptime: 40 weeks, 6 days, 18 hours, 49 minutes
+        uptime_days: "6"
+        uptime_hours: "18"
+        uptime_minutes: "49"
+        uptime_weeks: "40"
+        uptime_years: ""
   show_version__i_uptime:
     version: 17.6.19
     running_image: c1100-universalk9.17.06.09.SPA.bin
