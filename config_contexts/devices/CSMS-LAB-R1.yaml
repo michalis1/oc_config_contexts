@@ -63,6 +63,12 @@ command_outputs:
     uptime_weeks: "40"
     uptime_years: ""
   show_ntp_servers:
+  result:
+    - "name": "group1"
+      "type": "group"
+    - "name": "group2"
+      "type": "group"
+  show_ntp_servers_:
     - ntp:
         hosts:
           - delay: "0.00000"
