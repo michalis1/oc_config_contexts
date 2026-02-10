@@ -66,13 +66,12 @@ command_outputs:
     ntp:
       hosts:
         - server: "10.10.10.1"
-          statum: 2
         - server: "10.10.10.2"
-          statum: 2
         - server: "10.10.10.3"
-          statum: 16
         - server: "10.10.10.4"
-          statum: 16
+
+
+  
   show_ntp_servers_:
     - ntp:
         hosts:
