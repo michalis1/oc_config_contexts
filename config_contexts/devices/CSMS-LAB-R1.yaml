@@ -65,13 +65,13 @@ command_outputs:
   show_ntp_servers:
     - ntp:
         hosts:
-          - local: "10.10.10.1"
+          - server: "10.10.10.1"
             statum: 2
-          - local: "10.10.10.2"
+          - server: "10.10.10.2"
             statum: 2
-          - local: "10.10.10.3"
+          - server: "10.10.10.3"
             statum: 16
-          - local: "10.10.10.4"
+          - server: "10.10.10.4"
             statum: 16
   show_ntp_servers_:
     - ntp:
