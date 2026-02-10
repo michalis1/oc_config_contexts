@@ -63,11 +63,16 @@ command_outputs:
     uptime_weeks: "40"
     uptime_years: ""
   show_ntp_servers:
-    result:
-      - "name": "group1"
-        "type": "group"
-      - "name": "group3"
-        "type": "group"
+    - ntp:
+        hosts:
+          - local: "10.10.10.1"
+            statum: 2
+          - local: "10.10.10.2"
+            statum: 2
+          - local: "10.10.10.3"
+            statum: 16
+          - local: "10.10.10.4"
+            statum: 16
   show_ntp_servers_:
     - ntp:
         hosts:
