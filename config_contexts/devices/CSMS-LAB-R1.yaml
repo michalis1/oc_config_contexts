@@ -62,6 +62,9 @@ command_outputs:
     uptime_minutes: "49"
     uptime_weeks: "40"
     uptime_years: ""
+
+  
+
   show_ntp_servers:
     ntp:
       hosts:
@@ -71,7 +74,17 @@ command_outputs:
         - server: "10.10.10.4"
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
   show_ntp_servers_:
     - ntp:
         hosts:
