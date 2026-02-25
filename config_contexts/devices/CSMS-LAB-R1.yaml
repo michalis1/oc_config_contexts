@@ -4,6 +4,11 @@ _metadata:
   weight: 1000
   description: Cisco IOS Command Outputs
   is_active: true
+ntp_server_compliance:
+  statum:
+    - "2"
+    - "16"
+    - "32"
 command_outputs:
   show_versions:
     ap_profiles:
