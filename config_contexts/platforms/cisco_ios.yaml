@@ -43,7 +43,7 @@ command_outputs:
       table_version: '25128202'
       up_down: 2d05h
   show_ip_route:
-    - distance: '1's
+    - distance: '1'
       flag: ''
       metric: '0'
       network: 172.16.100.0
